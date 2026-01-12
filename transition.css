@@ -1,0 +1,25 @@
+div{
+    height:100px;
+    width:100px;
+    background-color: cadetblue;
+    border: 4px solid black;
+    text-align:ceter;
+    position: absolute;
+    top: 100px;
+    left:200px;
+    transform: rotate(360deg);
+    transform: scale(1,2);
+    transition: all 2s ease-in;
+}
+div:hover {
+   /* background-color: red;
+    color:white;
+    font-size: 20px;
+    transform: scale(2);
+    transform: translatex(200px); */
+
+    transform: skew(90deg); 
+}    
+div:active {
+    background-color: pink;
+}

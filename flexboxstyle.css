@@ -1,0 +1,21 @@
+div{
+   height:100px;
+   width:100px;
+   border: 1px solid black;
+   display:inline-block;
+   
+
+}
+body{
+    text-align:center;
+
+}
+#container {
+    width:800px;
+    height:200px;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
